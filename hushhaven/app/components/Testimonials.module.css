@@ -5,10 +5,11 @@
     padding: 20px;
     padding-top: 13%;
     padding-bottom: 13%;
+    font-family: Quattrocento; 
   }
   
   .mainTitle {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: #333;
     margin-bottom: 30px;
   }

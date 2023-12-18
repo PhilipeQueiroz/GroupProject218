@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./ProductSection.module.css";
+import towelsImage from '../images/Towels.png'; // Corrected the variable name to match the content
+import robesImage from '../images/Robes.png'; // Make sure the path is correct
 
 export default function ProductSection() {
   return (
@@ -8,13 +10,14 @@ export default function ProductSection() {
       <div className={styles.productContainer}>
         <div className={styles.productCard}>
           <h3 className={styles.productTitle}>TOWELS</h3>
-          <img src="/images/Towels.png" alt="Towels" className={styles.productImage}/>
+          <img src={towelsImage} alt="Towels" className={styles.productImage}/>
         </div>
         <div className={styles.productCard}>
           <h3 className={styles.productTitle}>ROBES</h3>
-          <img src="/images/Robes.png" alt="Robes" className={styles.productImage}/>
+          <img src={robesImage} alt="Robes" className={styles.productImage}/>
         </div>
       </div>
     </section>
   );
 }
+

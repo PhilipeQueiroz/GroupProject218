@@ -9,6 +9,7 @@
   .productHeader {
     font-size: 3rem;
     margin-bottom: 2rem;
+    font-family: Quattrocento; 
   }
   
   .productContainer {
@@ -33,13 +34,13 @@
   }
   
   .productImage {
-    width: 100%;
-    background-image: url('../images/Towels.png');
-    height: auto;
-    object-fit: contain;
-    border-radius: 15px;
-    display: block;
-    margin: 1rem auto 0 auto;
+    width: 100%; /* Full width of the container */
+    height: 300px; /* Fixed height */
+    object-fit: cover; /* Ensure the image covers the area and maintains aspect ratio */
+    object-position: center; /* Center the image within the container */
+    border-radius: 15px; /* Rounded corners for the image */
+    display: block; /* Ensures the image is on its own line */
+    margin: 1rem auto; /* Center the image horizontally within the container */
   }
   
   .productTitle {
@@ -52,5 +53,6 @@
     margin: 1rem;
     padding: 0.5rem;
     border-radius: 10px;
+    font-family: Quattrocento; 
   }
   
