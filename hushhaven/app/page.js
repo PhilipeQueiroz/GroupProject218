@@ -7,6 +7,7 @@ import OfferSection from './components/OfferSection'
 import ProductSection from './components/ProductSection'
 import AboutSection from './components/AboutSection'
 import Testimonials from './components/Testimonials'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (  
@@ -34,6 +35,11 @@ export default function Home() {
         <Testimonials />
       </div>
 
+      <div>
+        <Footer />
+      </div>
+
+      
     </RootLayout>
   )
 }
